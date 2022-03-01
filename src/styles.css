@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  background-color: #b2bec3;
+}
+
+.Container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.Content {
+  border: 2px solid #d3d3d3;
+
+  padding-inline: 18rem;
+  padding-block: 6rem;
+
+  border-radius: 0.8rem;
+  background-color: #dfe6e9;
+
+  display: flex;
+}
+
+.Content span {
+  background-color: #dfe6e9;
+  font-size: 12rem;
+
+  letter-spacing: 0.8rem;
+}
